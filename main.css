@@ -1,0 +1,84 @@
+div {
+    width: 100px;
+    height: 100px;
+}
+p { 
+    visibility: visible;
+}
+.a1 {
+    display: table-cell;
+    width: inherit;
+    height: inherit;
+    color: #8d98cd;
+}
+.box1 {
+    position: static;
+    background-color: #6387d3;
+}
+.a1:hover{
+    background: #000;
+    transition: all 700ms ease;
+    position: relative;
+    left: 100px; 
+}
+
+.a2 {
+    display: table-cell;
+    width: inherit;
+    height: inherit;
+    color: #9ecd8d;
+}
+.box2{
+    position: static;
+    background-color: #9ecd8d;
+}
+.a2:hover{
+    background: #000;
+    transition: all 700ms ease;
+    position: relative;
+    left: 100px;
+    visibility: visible; 
+}
+.a3 {
+    display: table-cell;
+    width: inherit;
+    height: inherit;
+    color: coral;
+}
+.box3{
+    position: static;
+    background-color: coral;
+}
+.a3:hover{
+    background: #000;
+    transition: all 700ms ease;
+    position: relative;
+    left: 100px;
+    visibility: visible; 
+}
+
+.a4 {
+    display: table-cell;
+    width: inherit;
+    height: inherit;
+    color: lightcoral;
+}
+.box4{
+    position: static;
+    background-color: lightcoral;
+}
+.a4:hover{
+    background: #000;
+    transition: all 700ms ease;
+    position: relative;
+    left: 100px;
+    visibility: visible; 
+}
+
+
+
+
+
+
+
+
